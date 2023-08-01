@@ -9,49 +9,56 @@
 Identify the loan risk of borrowers from a dataset of historical lending activity from a peer-to-peer lending services company with a Machine Learning Model 
 
 ### Dataset
-The dataset provides the following historical lending activity data:
+* The dataset provides the following historical lending activity data
 
-           loan_size
-           interest_rate
-           borrower_income
-           debt_to_income
-           num_of_accounts
-           derogatory_marks
-           total_debt
-           loan_status
+                    loan_size
+                    interest_rate
+                    borrower_income
+                    debt_to_income
+                    num_of_accounts
+                    derogatory_marks
+                    total_debt
+                    loan_status
            
-The values in the "Loan Status" column indicates if the loan is healthy or at risk of a defaulting          
-          
-           0 = healthy loan
-           1 = high-risk loan              
+* The "Loan Status" column indicates if the loan is healthy or at risk of a defaulting
+  
+      Column Values:
+                    0 = healthy loan
+                    1 = high-risk loan              
 
 * Create Label/s set and Features dataset
 
-     * Labels:
-                 y = "loan status" column        
-     * Features:
-                 X = remaining columns
+            Labels: y = "loan status" column
+          Features: X = remaining columns
 
 * Split the Data into Training and Testing datasets    
-     
+---
+
 ### Logistic Regression Model
 
-* Fit logistic regression model using training data
-* Save predictions for testing data labels
+* Random State of 1 assigned to model
+* Fit Training data
+* Generate and save Training Predictions
 * Evaluate Model Performance:
-             *Confusion Matrix
-             *Classification Report
 
+                    Confusion Matrix
+                    Classification Report
+
+---
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Accuracy
+  * Precision
+  * Recall
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Accuracy
+  * Precision
+  * Recall
 
 ## Summary
 
