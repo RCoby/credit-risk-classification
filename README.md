@@ -8,38 +8,37 @@
 
 Build a model to identify the loan risk of borrowers from a dataset of historical lending activity from a peer-to-peer lending services company.
 
-#### DATA
+### DATA
+The dataset provides the following historical lending activity data:
 
-The dataset provides the following data:
-        
-        loan_size
-        interest_rate
-        borrower_income
-        debt_to_income
-        num_of_accounts
-        derogatory_marks
-        total_debt
-        loan_status
+           loan_size
+           interest_rate
+           borrower_income
+           debt_to_income
+           num_of_accounts
+           derogatory_marks
+           total_debt
+           loan_status
+           
+The "Loan Status" column value indicates the risk of a defaulting          
+          
+           0 = loan is healthy
+           1 = high risk of default              
 
-   The "Loan Status" column value indicates the risk of a defaulting          
-       
-        0 = loan is healthy
-        1 = high risk of default              
+### Machine Learning Process
 
-#### Machine Learning Process
+   * Split the Data into Training and Testing Sets:
 
-*  Split the Data into Training and Testing Sets
-  
-      +  Labels: y = "loan status" column        
-      +  Features: X = all other columns
+           Labels: y = "loan status" column        
+           Features: X = all other columns
      
+   * Create a Logistic Regression Model
 
-*  Create a Logistic Regression Model
+   * Evaluate Performance
+     
+           Confusion Matrix
 
-*  Evaluate Performance 
-  
-    +  Confusion Matrix
-    +  Classification Report
+           Classification Report
 
 ## Results
 
