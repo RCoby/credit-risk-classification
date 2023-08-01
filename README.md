@@ -1,36 +1,45 @@
 # Credit Risk Classification
-
-Train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-
----
-
-### Instructions
-The instructions for this Challenge are divided into the following subsections:
-
-  +  Split the Data into Training and Testing Sets
-
-  +  Create a Logistic Regression Model with the Original Data
-
-  +  Write a Credit Risk Analysis Report
-
----
-
-**NOTE:**
-
-A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+   
+   Supervised Machine Learning
 
 
-----
 
-## Overview of the Analysis
+## Analysis Overview
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+Build a model to identify the loan risk of borrowers from a dataset of historical lending activity from a peer-to-peer lending services company.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+#### DATA
+
+The dataset provides the following data:
+        
+        loan_size
+        interest_rate
+        borrower_income
+        debt_to_income
+        num_of_accounts
+        derogatory_marks
+        total_debt
+        loan_status
+
+   The "Loan Status" column value indicates the risk of a defaulting          
+       
+        0 = loan is healthy
+        1 = high risk of default              
+
+#### Machine Learning Process
+
+*  Split the Data into Training and Testing Sets
+  
+      +  Labels: y = "loan status" column        
+      +  Features: X = all other columns
+     
+
+*  Create a Logistic Regression Model
+
+*  Evaluate Performance 
+  
+    +  Confusion Matrix
+    +  Classification Report
 
 ## Results
 
@@ -38,7 +47,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-
 
 
 * Machine Learning Model 2:
