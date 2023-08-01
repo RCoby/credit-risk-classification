@@ -6,7 +6,7 @@
 
 ## Analysis Overview
 
-Build a model to identify the loan risk of borrowers from a dataset of historical lending activity from a peer-to-peer lending services company.
+Identify the loan risk of borrowers from a dataset of historical lending activity from a peer-to-peer lending services company with a Machine Learning Model 
 
 ### DATA
 The dataset provides the following historical lending activity data:
