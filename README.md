@@ -49,20 +49,25 @@ Identify the loan risk of borrowers from a dataset of historical lending activit
 
 Logistic Regression Model
 Balanced accuracy scores and the precision and recall scores of the machine learning model.
-  
-  * Accuracy - % of correct prediction overall of true pos/neg              
+            
   * Precision - Ratio of correct positive predictions 
   * Recall - Ratio of correct actual positives
+  * F1 - represents overall performance of Precision & Recall
+  * Accuracy - % of correct prediction overall of true pos/neg    
     
         Logistic Regression Model Results
-    
+             
              Predicting "0":
                          Precision = 1.00 
-                            Recall = 0.99 
+                            Recall = 0.99
+                                F1 = 1.00
 
-            Predicting "1":
+             Predicting "1":
                          Precision = 0.85
                             Recall = 0.91
+                                F1 = 0.88
+          
+             Accuracy = 99% 
 
 ## Summary
 
