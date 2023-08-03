@@ -26,7 +26,7 @@ Identify the loan risk of borrowers from a dataset of historical lending activit
                     0 = healthy loan
                     1 = high-risk loan              
 
-* Create Label/s set and Features dataset
+* Label/s set and Features dataset
 
             Labels: y = "loan status" column
           Features: X = remaining columns
@@ -47,26 +47,20 @@ Identify the loan risk of borrowers from a dataset of historical lending activit
 ---
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Accuracy
-  * Precision
+Logistic Regression Model:
+* Balanced accuracy scores and the precision and recall scores of the machine learning model.
+  
+  * Accuracy - correct prediction % overall of true pos/neg
+                
+  * Precision - correct positive predictions
+    
   * Recall
 
-
-* Machine Learning Model 2:
-  * Accuracy
-  * Precision
-  * Recall
 
 ## Summary
 
-Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+* Although the model demonstrats extreemly high accuracy for the "0" label, the accuracy drop for label "1" has the potential to expose a creditor to an unsatisfactory level of risk. 
+* As the purpose of the model is to determine the creditworthiness of browers I am hesitant to recomend this model on the basis of the results without further information relating to what the creditors deems an acceptable level of risk.  
 
 ---
 ### References
